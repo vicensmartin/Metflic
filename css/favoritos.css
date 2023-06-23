@@ -1,0 +1,74 @@
+
+.text-center {
+    text-align: center;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+  
+  #favoritos-list {
+    margin-top: 20px;
+  }
+  
+  #listaPeliFavoritas {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pelicula-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: solid; 
+    border-radius: 10px;
+    background-color: #343A40;
+    color: aliceblue;
+  }
+  
+  .imagen-div {
+    flex: 0 0 auto;
+    margin-right: 20px;
+  }
+  
+  .imagen-div img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .pelicula-info {
+    flex: 1 1 auto;
+  }
+  
+
+  .botonEliminar {
+    top: 0;
+    right: 0;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    color: aliceblue;
+  }
+
+  .nofavoritos{
+    text-align: center;
+  }
+  
+
+  /* Media query para dispositivos móviles */
+  @media (max-width: 768px) {
+    .pelicula-container {
+      flex-direction: column;
+    }
+  
+    .imagen-div {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+
+    .pelicula-info {
+      text-align: center;
+    }
+  }
+  

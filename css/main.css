@@ -1,0 +1,56 @@
+
+
+.peliCard {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #343A40;
+    color: #ccc;
+    border-radius: 10px;
+  }
+
+  .peliCard img {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .peliCard a{
+    text-decoration: none;
+    color: #ccc;
+  }
+
+  .add-button {
+    margin-left: auto;
+  }
+
+  .tituloPeliculas{
+    text-align: center;
+  }
+
+a:hover{
+cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .peliCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .peliCard img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+
+  .flex-grow-1 {
+    flex-grow: 1;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
